@@ -119,6 +119,7 @@ meta   $route.meta meta需要在配置路由的时候配置
 -4.使用git对项目进行版本控制
  ------1 生成本地仓库  git init    git  add *   git commit -m  'init gshop'
  ------2 创建远程仓库  复制：git remote add origin https://github.com/dingziyong/gshop.git
+主要删除  与github 相关的凭据
  ------3 将本地仓库推送到远程仓库  执行上面命令 关联 推送
         git push  origin  master  启动github登录界面 登录
  
