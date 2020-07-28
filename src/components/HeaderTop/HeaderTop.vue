@@ -14,7 +14,7 @@
 		// 声明组件接收的属性 
 		props:{
 			title:String
-		}
+		},
 	}
 </script>
 

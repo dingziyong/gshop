@@ -1,9 +1,6 @@
 <template>
 	<div class="footer_guide border-1px">
-		<!-- on是动态的
-		绑定class 是否用对象语法   :class="{on:isOn}"  on是确定  就是什么时候需要 根据请求路径 
-		请求路径可以打开vue工具查看
-		 -->
+		<!-- 绑定class   :class="{on:isOn}"  on是确定  就是什么时候需要 根据请求路径 -->
 		<a href="javascript:;" class="guide_item"  :class="{on: '/msite'===$route.path}" @click="goTo('/msite')">
 			<span class="item_icon">
 				<i class="iconfont icon-u"></i>
